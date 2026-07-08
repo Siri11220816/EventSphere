@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventSphere | Smart Event Management Platform</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <i class="fa-solid fa-calendar-days"></i>
+                EventSphere
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#events">Events</a></li>
+
+                <li><a href="#categories">Categories</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="nav-buttons">
+
+                <button class="login-btn">Login</button>
+
+                <button class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>
+                Discover Amazing
+                <span>Events Near You</span>
+            </h1>
+
+            <p>
+
+                Book tickets for concerts, workshops, conferences,
+                hackathons, sports events and festivals from one
+                beautiful platform.
+
+            </p>
+
+            <div class="hero-search">
+
+                <input type="text"
+                    placeholder="Search events...">
+
+                <button>
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    Search
+
+                </button>
+
+            </div>
+
+            <div class="hero-buttons">
+
+                <button class="primary-btn">
+                    Explore Events
+                </button>
+
+                <button class="secondary-btn">
+                    Watch Demo
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=900"
+                alt="Event">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FEATURED EVENTS ================= -->
+
+    <section class="events" id="events">
+
+        <div class="section-title">
+
+            <h2>Featured Events</h2>
+
+            <p>
+                Explore the most exciting events happening this month.
+            </p>
+
+        </div>
+
+        <div class="event-container">
+
+            <!-- CARD 1 -->
+
+            <div class="event-card">
+
+                <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=700">
+
+                <div class="card-content">
+
+                    <h3>AI Summit 2026</h3>
+
+                    <p>
+                        Meet AI experts and discover the future of
+                        Artificial Intelligence.
+                    </p>
+
+                    <div class="event-info">
+
+                        <span>
+                            <i class="fa-solid fa-calendar"></i>
+                            15 Aug 2026
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Hyderabad
+                        </span>
+
+                    </div>
+
+                    <button>
+                        Book Now
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 2 -->
+
+            <div class="event-card">
+
+                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=700">
+
+                <div class="card-content">
+
+                    <h3>Music Festival</h3>
+
+                    <p>
+                        Enjoy live performances from world-famous artists.
+                    </p>
+
+                    <div class="event-info">
+
+                        <span>
+                            <i class="fa-solid fa-calendar"></i>
+                            21 Aug 2026
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Bengaluru
+                        </span>
+
+                    </div>
+
+                    <button>
+                        Book Now
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 3 -->
+
+            <div class="event-card">
+
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=700">
+
+                <div class="card-content">
+
+                    <h3>Startup Workshop</h3>
+
+                    <p>
+
+                        Learn startup strategies from successful founders.
+
+                    </p>
+
+                    <div class="event-info">
+
+                        <span>
+
+                            <i class="fa-solid fa-calendar"></i>
+
+                            29 Aug 2026
+
+                        </span>
+
+                        <span>
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            Chennai
+
+                        </span>
+
+                    </div>
+
+                    <button>
+
+                        Book Now
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Remaining sections will be added in Part 2 -->
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories" id="categories">
+
+    <div class="section-title">
+        <h2>Browse Categories</h2>
+        <p>Find events based on your interests.</p>
+    </div>
+
+    <div class="category-container">
+
+        <div class="category-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Technology</h3>
+            <p>Hackathons, AI Summits, Coding Workshops.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-music"></i>
+            <h3>Music</h3>
+            <p>Concerts, Live Shows and Festivals.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-futbol"></i>
+            <h3>Sports</h3>
+            <p>Marathons, Cricket, Football and More.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Business</h3>
+            <p>Networking and Startup Events.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <h3>Workshops</h3>
+            <p>Skill Development Programs.</p>
+        </div>
+
+        <div class="category-card">
+            <i class="fa-solid fa-film"></i>
+            <h3>Entertainment</h3>
+            <p>Comedy Shows and Cultural Events.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="why" id="about">
+
+    <div class="section-title">
+        <h2>Why Choose EventSphere?</h2>
+    </div>
+
+    <div class="why-container">
+
+        <div class="feature-card">
+            <i class="fa-solid fa-ticket"></i>
+            <h3>Easy Booking</h3>
+            <p>Reserve tickets within seconds.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-lock"></i>
+            <h3>Secure Payments</h3>
+            <p>Fast and secure payment gateway.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-qrcode"></i>
+            <h3>Instant E-Tickets</h3>
+            <p>Receive digital tickets instantly.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>Dedicated customer support anytime.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATISTICS ================= -->
+
+<section class="stats">
+
+    <div class="stat-card">
+        <h2>1000+</h2>
+        <p>Events</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>50K+</h2>
+        <p>Users</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>120+</h2>
+        <p>Organizers</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>25+</h2>
+        <p>Cities</p>
+    </div>
+
+</section>
+
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="testimonials">
+
+    <div class="section-title">
+        <h2>What Our Users Say</h2>
+    </div>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg">
+            <h3>Priya Sharma</h3>
+            <span>Software Engineer</span>
+            <p>"Booking tickets was incredibly simple and smooth."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg">
+            <h3>Rahul Kumar</h3>
+            <span>College Student</span>
+            <p>"I discovered amazing workshops through EventSphere."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg">
+            <h3>Sneha Reddy</h3>
+            <span>Event Organizer</span>
+            <p>"Professional design with secure booking experience."</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FAQ ================= -->
+
+<section class="faq">
+
+    <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+    </div>
+
+    <div class="faq-item">
+        <h3>How do I book an event?</h3>
+        <p>Select your event, click Book Now and complete the payment.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>Can I cancel my ticket?</h3>
+        <p>Yes, cancellation depends on the organizer's policy.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>How will I receive my ticket?</h3>
+        <p>Your e-ticket will be sent to your email after payment.</p>
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+    <div class="section-title">
+        <h2>Contact Us</h2>
+    </div>
+
+    <form>
+
+        <input type="text" placeholder="Full Name">
+
+        <input type="email" placeholder="Email">
+
+        <input type="tel" placeholder="Phone Number">
+
+        <textarea rows="5" placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            <h2>EventSphere</h2>
+            <p>Your one-stop platform for discovering and booking amazing events.</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <ul>
+                <li>Home</li>
+                <li>Events</li>
+                <li>Categories</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Support</h3>
+            <ul>
+                <li>FAQs</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Follow Us</h3>
+
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-x-twitter"></i>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 EventSphere. All Rights Reserved.
+    </p>
+
+</footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
